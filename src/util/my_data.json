@@ -1,0 +1,138 @@
+{
+    "nodes": [
+        {
+            "id": "Ivo Tasevski",
+            "color": "blue"
+        },
+        {
+            "id": "Petro Petrovski",
+            "color": "blue"
+        },
+        {
+            "id": "Marko Markovski",
+            "color": "blue"
+        },
+        {
+            "id": "Marta Martovski",
+            "color": "blue"
+        },
+        {
+            "id": "Angela Angelovska",
+            "color": "blue"
+        },
+        {
+            "id": "Jana Janeva",
+            "color": "blue"
+        },
+        {
+            "id": "Basketball",
+            "color": "green"
+        },
+        {
+            "id": "Ping Pong",
+            "color": "green"
+        },
+        {
+            "id": "Football",
+            "color": "green"
+        },
+        {
+            "id": "Lionel Messi",
+            "color": "blue"
+        },
+        {
+            "id": "Lebron James",
+            "color": "blue"
+        },
+        {
+            "id": "Brazil",
+            "color": "purple"
+        },
+        {
+            "id": "USA",
+            "color": "purple"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ivo Tasevski",
+            "target": "Petro Petrovski",
+            "label": "KNOWS"
+        },
+        {
+            "source": "Petro Petrovski",
+            "target": "Ivo Tasevski",
+            "label": "KNOWS_TEST"
+        },
+        {
+            "source": "Petro Petrovski",
+            "target": "Angela Angelovska",
+            "label": "KNOWS"
+        },
+        {
+            "source": "Jana Janeva",
+            "target": "Petro Petrovski",
+            "label": "KNOWS"
+        },
+        {
+            "source": "Angela Angelovska",
+            "target": "Ivo Tasevski",
+            "label": "KNOWS"
+        },
+        {
+            "source": "Petro Petrovski",
+            "target": "Marko Markovski",
+            "label": "KNOWS"
+        },
+        {
+            "source": "Marta Martovski",
+            "target": "Angela Angelovska",
+            "label": "KNOWS"
+        },
+        {
+            "source": "Ivo Tasevski",
+            "target": "Lebron James",
+            "label": "FAN_OF"
+        },
+        {
+            "source": "Marko Markovski",
+            "target": "Ping Pong",
+            "label": "PLAYS"
+        },
+        {
+            "source": "Ivo Tasevski",
+            "target": "Ping Pong",
+            "label": "PLAYS"
+        },
+        {
+            "source": "Petro Petrovski",
+            "target": "Lebron James",
+            "label": "FAN_OF"
+        },
+        {
+            "source": "Petro Petrovski",
+            "target": "Lionel Messi",
+            "label": "FAN_OF"
+        },
+        {
+            "source": "Lebron James",
+            "target": "Basketball",
+            "label": "PLAYS"
+        },
+        {
+            "source": "Lionel Messi",
+            "target": "Football",
+            "label": "PLAYS"
+        },
+        {
+            "source": "Basketball",
+            "target": "USA",
+            "label": "POPULAR_IN"
+        },
+        {
+            "source": "Football",
+            "target": "Brazil",
+            "label": "POPULAR_IN"
+        }
+    ]
+}
